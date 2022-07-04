@@ -1,0 +1,163 @@
+/* Post Flex Starts */
+
+.post-flex {
+    width: 91%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5em 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+    /* border-bottom: 1px solid #a9a9a9; */
+}
+
+.post {
+    -webkit-flex: 1 auto;
+    -moz-flex: 1 auto;
+    flex: 1 auto;
+    align-self: auto;
+    text-align: justify;
+    line-height: 2.5em;
+}
+
+
+/* Single Post Starts */
+
+.categ {
+    text-decoration: none;
+}
+
+.categ h6 {
+    color: #ad974f;
+    padding: 1em 0;
+}
+
+.post:nth-child(1) {
+    width: 70%;
+}
+
+.line-1 {
+    width: 10%;
+    align-content: center;
+    border: #ad974f 1px solid;
+    margin: 1em 0;
+}
+
+.author {
+    font-size: 0.8em;
+}
+
+.author a {
+    text-decoration: none;
+    color: #000;
+}
+
+.author:hover a {
+    color: #ad974f;
+    text-decoration: underline;
+}
+
+.date {
+    color: #a9a9a9;
+}
+
+.post-img {
+    padding: 3em 0;
+    width: 100%;
+    height: auto;
+}
+
+.post-img-1 {
+    margin: 0 25%;
+    padding: 3em 0;
+    width: 50%;
+    height: auto;
+}
+
+.insta-post {
+    margin: 5em 20%;
+    box-shadow: 12px 12px 70px #d6d6d6, -12px -12px 70px #ffffff;
+}
+
+
+/* Single Post Ends */
+
+
+/* Similar Posts Start */
+
+.post:nth-child(2) {
+    width: 30%;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.recent {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    -moz-flex-flow: column wrap;
+    flex-flow: column wrap;
+}
+
+.post-item {
+    text-align: left;
+    width: 17em;
+    margin: 1em auto;
+    align-self: auto;
+}
+
+.post-item img {
+    width: 100%;
+    height: 12em;
+}
+
+.post-item h2 a {
+    font-family: "Stardom", sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.post-item h2 a:hover {
+    text-decoration: underline;
+}
+
+.post-item h6 a {
+    color: #ad974f;
+    text-decoration: none;
+}
+
+.post-item h6 a:hover {
+    text-decoration: underline;
+}
+
+
+/* Similar Posts Ends */
+
+
+/* Post Flex Ends */
+
+
+/* Responsive Starts */
+
+@media screen and (max-width: 856px) {
+    .post-flex {
+        flex-direction: column;
+    }
+    .post:nth-child(1) {
+        width: 91%;
+        margin: 0 auto;
+    }
+    .post:nth-child(2) {
+        width: 91%;
+    }
+    .recent {
+        flex-direction: row;
+    }
+}
+
+
+/* Responsive Ends */

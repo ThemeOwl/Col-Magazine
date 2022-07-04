@@ -1,0 +1,89 @@
+.top-post {
+    width: 91%;
+    margin: 1em auto 5em;
+}
+
+.top-post img {
+    width: 100%;
+}
+
+.top-post h2 a {
+    font-family: "Stardom", sans-serif;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.top-post h2 a:hover {
+    text-decoration: underline;
+}
+
+.top-post h5 {
+    padding: 0.3em 0;
+}
+
+.top-post h6 {
+    padding: 1em 0;
+}
+
+.top-post h6 a {
+    color: #ad974f;
+    text-decoration: none;
+}
+
+.top-post h6 a:hover {
+    text-decoration: underline;
+}
+
+.line-2 {
+    width: 20%;
+    align-content: center;
+    border: #ad974f 1px solid;
+    margin: 1em 0;
+}
+
+.cat-head {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.lat-bottom-1 {
+    width: 50%;
+    align-content: center;
+    margin: 5em auto;
+    border-bottom: rgba(85, 85, 85, 0.377) 1px solid;
+}
+
+.cat-item {
+    margin: 2em 0.5em;
+}
+
+.center {
+    /* margin: 0 auto; */
+    padding: 2em 0;
+    text-align: center;
+}
+
+.pagination {
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #ad974f;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}

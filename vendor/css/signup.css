@@ -1,0 +1,132 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+.logo {
+  margin: 0 45%;
+}
+.logo img {
+  width: 6em;
+}
+form {
+  width: 25em;
+  min-height: 20em;
+  height: auto;
+
+  margin: 2em auto;
+
+  padding: 2%;
+
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: inset 5px 5px 25px #b3b3b3, inset -5px -5px 25px #ffffff;
+  color: #000;
+}
+.form-div {
+  margin: 2em auto;
+  text-align: center;
+}
+.form-div h2 {
+  font-size: 2.5em;
+  padding: 0 0 1em 0;
+}
+.form-div h3 {
+  font-weight: lighter;
+}
+
+.form-div input {
+  width: 80%;
+  height: 3em;
+  margin: 2.5em auto;
+  padding: 0 0 0 1em;
+  /* background-image: linear-gradient(135deg, #000 46%, #ad974f 54%); */
+  border: none;
+  border-bottom: #000 1px solid;
+  background: #ad974f31;
+  /* border-radius: 5px; */
+}
+.sign-in {
+  color: #fff;
+  border: none;
+  width: 8em;
+  height: 2.5em;
+  margin: 0.5em auto;
+  background: #000;
+  font-size: medium;
+}
+.sign-in:hover {
+  background-color: #ad974f;
+  color: #000;
+}
+footer {
+  width: 100%;
+  background: #000;
+  padding: 2em 0 0.5em 0;
+  height: auto;
+  text-align: center;
+  /* color: #fff; */
+  /* display: flex; */
+  /* -ms-flex-align: center; */
+}
+footer p {
+  color: #fff;
+  font-size: 0.8em;
+}
+footer p a {
+  color: #ad974f;
+}
+.ft-div {
+  width: 91%;
+  border-bottom: #fff 1px solid;
+  text-align: center;
+  margin: 1em auto;
+  padding: 0 0 2em 0;
+}
+.ft-list {
+  /* position: absolute; */
+  align-self: center;
+  margin: 2em auto;
+  text-align: center;
+  width: 24em;
+}
+.ft-list ul {
+  margin: 0 auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+.ft-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.ft-div a:hover {
+  color: #ad974f;
+}
+.cookies {
+  margin: 0 auto;
+  width: 10em;
+  height: 3em;
+  background: transparent;
+  color: #fff;
+  border: ridge #fff 2px;
+}
+
+button:hover {
+  animation: ani9 0.4s ease-in-out infinite alternate;
+}
+@keyframes ani9 {
+  0% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
